@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.full_width {
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+.fix_width {
+    width: 100%;
+    height: auto;
+    background: white;
+    margin: 0auto;
+}
+
+.content {
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-img-1 {
+    width: 90%;
+    height: auto;
+    padding-left: 50px;
+}
+
+.column-1 {
+    width: 99%;
+    background: white;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 80px;
+    display: flex;
+}
+
+.box-1 {
+    width: 25%;
+    height: auto;
+    background: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+.box-2 {
+    width: 70%;
+    height: auto;
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.inner-box {
+    width: 100%;
+    height: auto;
+    background: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    text-align: end;
+}
+
+.column-2 {
+    width: 99%;
+    background: white;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.box-11 {
+    width: 98%;
+    background: white;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-22 {
+    width: 98%;
+    background: white;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.main-image-2 {
+    position: relative;
+    width: 35%;
+}
+
+.button-section-1 {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 2%;
+}
+
+.button-section-2 {
+    color: grey;
+    padding: 10px;
+}
+
+.paragraph {
+    display: flex;
+}
+
+@media only screen and (max-width:800px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .column-1 {
+        flex-direction: column;
+    }
+
+    .box-1,
+    .box-2,
+    .box-11,
+    .box-22,
+    .box-1,
+    .main-img-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .column-2 {
+        flex-direction: column;
+    }
+}
